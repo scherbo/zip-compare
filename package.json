@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "name": "zip-compare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "start": "node dist/cli.js"
+  },
+  "bin": {
+    "zip-compare": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/diff": "^7.0.2",
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "diff": "^7.0.0"
+  }
+}
